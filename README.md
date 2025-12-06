@@ -1,28 +1,39 @@
 # Advanced State in Jetpack Compose Codelab
 
-This folder contains the source code for the
-[Advanced State in Jetpack Compose Codelab](https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects)
-codelab.
+Bienvenido al repositorio del codelab **Advanced State in Jetpack Compose**. Aquí aprenderás a manejar estados avanzados y efectos secundarios en Jetpack Compose. Para más detalles, consulta el [codelab oficial](https://developer.android.com/codelabs/jetpack-compose-advanced-state-side-effects).
 
-The project is built in multiple git branches:
-* `main` – the starter code for this project, you will make changes to this to complete the codelab
-* `end` – contains the solution to this codelab
+---
 
-## [Optional] Google Maps SDK setup
+## 🌟 Estructura del Proyecto
 
-Seeing the city on the MapView is not necessary to complete the codelab. However, if you want
-to get the MapView to render on the screen, you need to get an API key as
-the [documentation says](https://developers.google.com/maps/documentation/android-sdk/get-api-key),
-and include it in the `local.properties` file as follows:
+El proyecto está organizado en ramas de Git para facilitar el aprendizaje:
 
-```
-MAPS_API_KEY={insert_your_api_key_here}
-```
+- **`main`**: Código inicial del proyecto. Realiza los cambios necesarios aquí para completar el codelab.
+- **`end`**: Contiene la solución completa del codelab.
 
-When restricting the Key to Android apps, use `androidx.compose.samples.crane` as package name, and
-`A0:BD:B3:B6:F0:C4:BE:90:C6:9D:5F:4C:1D:F0:90:80:7F:D7:FE:1F` as SHA-1 certificate fingerprint.
+---
 
-## License
+## 🗺️ Configuración Opcional: Google Maps SDK
+
+Si deseas habilitar la vista de mapas en la aplicación, sigue estos pasos:
+
+1. **Obtén una clave de API** siguiendo la [documentación oficial](https://developers.google.com/maps/documentation/android-sdk/get-api-key).
+2. **Configura la clave** en el archivo `local.properties`:
+
+   ```
+   MAPS_API_KEY={inserta_tu_clave_aquí}
+   ```
+
+3. **Restringe la clave** para aplicaciones Android con los siguientes valores:
+   - **Nombre del paquete**: `androidx.compose.samples.crane`
+   - **Huella digital SHA-1 del certificado**: `A0:BD:B3:B6:F0:C4:BE:90:C6:9D:5F:4C:1D:F0:90:80:7F:D7:FE:1F`
+
+> **Nota:** La vista de mapas no es necesaria para completar el codelab.
+
+---
+
+## 📜 Licencia
+
 ```
 Copyright 2021 The Android Open Source Project
 
@@ -38,3 +49,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+---
+
+¡Gracias por explorar este codelab! 🚀
